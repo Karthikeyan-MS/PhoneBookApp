@@ -1,0 +1,26 @@
+server:
+  port: 9090
+spring:
+  datasource:
+    password: dhileep
+    url: jdbc:h2:mem:contactDb
+    username: dhileep
+  h2:
+    console:
+      enabled: true
+      path: /h2
+  mvc:
+    view:
+      prefix: /views/
+      suffix: .jsp
+phnbook:
+  messages:
+    saveHeading:  SAVE CONTACT   
+    updateHeading: UPDATE CONTACT
+    saveSuccess:  Contact saved successfully!!!!
+    updateSuccess: Contact updated successfully!!!!
+    saveFailure: Contact could not be saved
+    updateFailure: Contact could not be updated
+    
+    
+    
